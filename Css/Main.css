@@ -1,0 +1,256 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* BAtas css reset */
+
+*    {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body p{
+ color: white ;
+}
+
+header{
+    
+    background-color: rgb(95, 26, 26);
+    padding: 100px;
+    text-align: center;
+    font-size: 35px;
+    color: white;
+    background-image: url(../Images/product.jpg);
+    background-size: 100% 100%;
+    height: 320px;
+    
+}
+
+header a{
+    color: rgba(255, 255, 255, 0.521);
+    
+}
+
+article h6{
+    margin-left: 20px;
+    margin-bottom: 40px;
+    color: rgba(128, 128, 128, 0.733);
+}
+
+header h3{
+    color: rgba(213, 162, 21, 0.659);
+    font-family: sans-serif;
+    font-size: 50px;
+    padding-bottom: 120px ;
+}
+
+article table {
+    margin-bottom: 20px;
+}
+
+header li{
+    
+    color: rgba(255, 255, 255, 0.453);
+}
+
+
+section{
+    display: -webkit-box;
+    display: flex;
+    background-color: rgb(19, 59, 51);
+}
+
+nav{
+    -webkit-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background: red;
+    padding: 50px;
+    background-color: rgb(105, 61, 61)
+}
+
+nav h2{
+    color: white;
+    margin-left: 12px;
+    margin-bottom: 20px;
+    font-size: 25px;
+    font-style: bold;
+    font-weight: bold;
+}
+
+nav p{
+    line-height: 10px;
+    font-size: 12px;
+}
+
+nav img{
+    object-fit: cover;
+    width: 300px;
+    height: 180px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+nav ol{
+    list-style-type: circle;
+    list-style-type: none;
+    padding: 5px;  
+}
+
+nav li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.367);
+    padding: 10px;
+}   
+
+nav a{
+    color: white;
+    margin-top: 50px;
+}
+
+article{
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: rgb(121, 51, 51);
+    padding: 10px;
+}
+
+article p{
+    padding-left: 10px;
+    padding-bottom: 35px;
+    line-height: 25px;
+    font-size: 15px;
+    float: left;
+    padding-right: 200px;
+    margin: 0;
+}
+
+article.penurunan{
+    margin-bottom: 15px;
+}
+
+article img{
+    margin-top: 15px;
+    margin: 10px;
+    width: 300px;
+    height: 180px;
+    float: left;
+    margin-right: 10px;
+    border-right: 5px solid rgba(42, 162, 42, 0.493);
+    border-left: 5px solid rgb(42, 162, 42, 0.493);
+    border-bottom: 5px solid rgb(42, 162, 42, 0.493);
+    border-top: 5px solid rgb(42, 162, 42, 0.493);
+}
+
+article h1{
+    color: rgb(67, 172, 165);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 110px;
+    margin-bottom: 35px;
+    margin-right: 200px;
+    line-height: 25px;
+}
+
+article h3{
+    color: rgb(185, 185, 185);
+    font-size: 18px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+article h4{
+    color: white;
+    margin-left: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+article table{
+    margin-right: 70px;
+    margin-left: px;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 10px;
+}
+
+footer{
+    background-color: rgb(141, 33, 33);
+    padding: 30px;
+    text-align: center;
+    font-size: 10px;
+    color: white;
+}
+
+@media (max-width: 600px){
+    section{
+        -web-flex-direction: colomn;
+        flex-direction: column;
+    }
+}
+
+tr{
+    padding-bottom: 13px;
+}
+
+th{
+    padding-top: 8px;
+    padding-bottom: 7px;
+}
+
+
